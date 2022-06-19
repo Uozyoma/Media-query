@@ -1,0 +1,195 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background-image: url("backgroundImg1.png");
+background-color:brown;
+}
+
+*{
+  box-sizing: border-box;
+}
+/* this is style for the navigation and navigation links */
+.navigation {
+  width: 100%;
+  background-color: grey;
+  margin: 0;
+  padding:10px;
+}
+.nav {
+    height: 50px;
+    margin-right: 3%;
+    padding-left: 70%;
+    padding-top: 20px;
+}
+.nav a {
+   text-decoration:none;
+     padding: 10px;
+  font-size:18px;
+}
+
+.nav > a:hover{
+  color:green;
+}
+/*-------------- navigation styling ends here:
+; _--------- */
+
+/*----- this is styling for the form _------------*/
+.registration input:hover{
+  transform:scale(1.2);
+  background-color: pink;
+}
+
+
+.container{
+width: 100%;
+margin-top:1rem;
+}
+.writeUp{
+  width: 40%;
+  height: 500px;
+  float: left;
+
+  margin-left: 2rem;
+padding: 5rem;
+}
+.registration {
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid;
+    background-color: orange;
+  padding-left:50px;
+  padding-top:50px;
+ box-shadow:5px 5px grey;
+ margin-right: 8rem;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   margin-left: 20%;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 10px;
+  margin-left: 20%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+      margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #A85A00;
+
+}
+
+
+
+/*--------- form styling ends here--------- */
+
+/*--------- This is styling for footer--------- */
+.footers{
+  height: 70px;
+  color: white;
+  background-color:#6B3C2C;
+  width: 100%;
+margin-top: 50px;
+    padding-top: 30px;
+    padding-left: 42%;
+}
+
+/*--------- Footer styling ends here--------- */
+
+/*--------- This is styling for About page --------- */
+
+
+.notify {
+    width: 30%;
+    background-color: purple;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+    padding: 10px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+#terms{
+  color:grey;
+  font-size:9px;
+}
+#condition{
+  color:red;
+  fontsize:11px;
+}
+.firstParagraph{
+  color:white;
+}
+h2.firstParagraph{
+  margin-top:8rem;
+}
+
+/* this is style for the Mobile responsive */
+ @media only screen and (max-width: 550px) {
+  .container{
+  width: 100%;
+  margin-top:0.5rem;
+
+  }
+  .registration {
+      width: 70%;
+      margin:0 auto;
+    }
+    .writeUp{
+      width: 70%;
+      margin:0 auto;
+      margin-top:50px;
+      padding: 2rem;
+padding-top:0px;
+padding-left:5rem;
+  height: 300px;
+line-height:1.5;
+}
+.notify {
+    width: 70%;
+}
+.nav {
+
+  padding-left:15%;
+}
+
+h2.firstParagraph{
+  margin-top:2rem;
+}
+
+.footers{
+
+        padding-left: 25%;
+
+
+}
+
+}
+
+/* this is style for mobile responsive ends here */
+
+
+
+
+/*--------- About page styling ends here--------- */
